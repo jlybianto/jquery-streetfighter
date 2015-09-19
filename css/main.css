@@ -41,3 +41,15 @@ body {
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
 	background-repeat: no-repeat;
 }
+
+.hadouken {
+	background-image: url('../images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	display: none;
+	position: relative;
+	top: -320px;
+	left: 520px;
+	float: left;
+	z-index: 2000;
+}
