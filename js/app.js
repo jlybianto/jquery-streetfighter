@@ -7,4 +7,13 @@ $(document).ready(function() {
 		$('.ryu-still').show();
 		$('.ryu-ready').hide();
 	});
+	$('.ryu').mousedown(function() {
+		console.log('mousedown');
+		// play Hadouken sound
+		// show Hadouken animation to the right
+	});
+	$('.ryu').mouseup(function() {
+		console.log('mouseup');
+		// Ryu goes back to ready position
+	});
 });
