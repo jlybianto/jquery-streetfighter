@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$('.ryu').mouseenter(function() {
-		alert('mouse entered .ryu div');
+		$('.ryu-stil').hide();
+		$('.ryu-ready').show();
 	});
 });
