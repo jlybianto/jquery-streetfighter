@@ -20,13 +20,23 @@ $(document).ready(function() {
 				$(this).css('left', '520px');
 			}
 		);
-		// play Hadouken sound
-		// show Hadouken animation to the right
 	});
 	$('.ryu').mouseup(function() {
 		$('.ryu-ready').show();
 		$('.ryu-throwing').hide();
-		// Ryu goes back to ready position
+	});
+	$(document).keydown(function(n) {
+    	if (n.keyCode == 88) {
+    		$('.ryu-still').hide();
+    		$('.ryu-ready').hide();
+    		$('.ryu-cool').show();
+    	}
+	})
+	.keyup(function(n) {
+    	if (n.keyCode == 88) {
+    		$('.ryu-still').show();
+    		$('.ryu-cool').hide();
+    	}
 	});
 });
 
