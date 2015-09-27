@@ -57,3 +57,10 @@ body {
 	left: 520px;
 	z-index: 10;
 }
+
+.instruction p {
+	width: 50%;
+	color: white;
+	font-size: 24px;
+	line-height: 45px;
+}
